@@ -2,9 +2,9 @@
 
 SecureCatDB is a cybersecurity-focused Python application designed to simulate a real-world login and access management system. This project deepened my understanding of secure user authentication, relational databases, and GUI-based software interfaces. The program integrates directly with an SQLite relational database to log and manage user activity, track login attempts, and enforce role-based access.
 
-The software features a login interface for both standard users and administrators. All login attempts—whether successful or not—are recorded in a dedicated table, including metadata like the IP address, timestamp, and login outcome. Admins are granted access to tools that allow them to manage users, view login logs, and monitor for suspicious behavior such as repeated failed login attempts. Standard users, by contrast, are routed to a basic dashboard showing their account details.
+The software features a login interface for both standard users and administrators. All login attempts (whether successful or not) are recorded in a dedicated table, including metadata like the IP address, timestamp, and login outcome. Admins are granted access to tools that allow them to manage users, view login logs, and monitor for suspicious behavior such as repeated failed login attempts. Standard users, by contrast, are routed to a basic dashboard showing their account details.
 
-This program was developed to strengthen my skills in secure coding practices, database interaction, and GUI design—foundational elements for a cybersecurity professional.
+This program was developed to strengthen my skills in secure coding practices, database interaction, and GUI design.
 
 [Software Demo Video](https://youtu.be/NuGWKeA1Si0)
 
