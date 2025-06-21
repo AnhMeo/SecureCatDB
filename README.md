@@ -14,11 +14,11 @@ This application uses an SQLite relational database stored locally as users.db.
 
 The database includes two primary tables:
 
--users table: Stores user account details such as username, password hash, salt, and whether the account is an admin.
+- users table: Stores user account details such as username, password hash, salt, and whether the account is an admin.
 
 Columns: id, username, salt, password, is_admin
 
--login_attempts table: Records every login attempt made through the application.
+- login_attempts table: Records every login attempt made through the application.
 
 Columns: id, username, password_hash, ip_address, timestamp, success
 
@@ -26,17 +26,17 @@ The system supports SQL operations such as INSERT, SELECT, UPDATE, and DELETE th
 
 # Development Environment
 
--IDE: Visual Studio Code
+- IDE: Visual Studio Code
 
--Database: SQLite
+- Database: SQLite
 
--Programming Language: Python 3
+- Programming Language: Python 3
 
--GUI Library: tkinter
+- GUI Library: tkinter
 
--Password Hashing: cryptography.hazmat (PBKDF2HMAC, SHA256)
+- Password Hashing: cryptography.hazmat (PBKDF2HMAC, SHA256)
 
--Other Libraries: socket, datetime, os
+- Other Libraries: socket, datetime, os
 
 # Useful Websites
 
@@ -48,12 +48,12 @@ The system supports SQL operations such as INSERT, SELECT, UPDATE, and DELETE th
 
 # Future Work
 
--Add account lockout feature after repeated failed login attempts
+- Add account lockout feature after repeated failed login attempts
 
--Enable filtering and exporting of login attempts (e.g., to CSV)
+- Enable filtering and exporting of login attempts (e.g., to CSV)
 
--Enhance UI with better theming and responsiveness
+- Enhance UI with better theming and responsiveness
 
--Implement email notifications for admin alerts
+- Implement email notifications for admin alerts
 
--Add password reset feature with identity verification
+- Add password reset feature with identity verification
