@@ -6,7 +6,7 @@ The software features a login interface for both standard users and administrato
 
 This program was developed to strengthen my skills in secure coding practices, database interaction, and GUI design—foundational elements for a cybersecurity professional.
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/NuGWKeA1Si0)
 
 # Relational Database
 
